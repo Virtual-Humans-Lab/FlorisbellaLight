@@ -10,8 +10,8 @@ Material:
   m_Name: Head
   m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _DISABLE_DECALS _DISABLE_SSR _MASKMAP _MATERIAL_FEATURE_SUBSURFACE_SCATTERING
-    _MATERIAL_FEATURE_TRANSMISSION _NORMALMAP_TANGENT_SPACE _SUBSURFACE_MASK_MAP
-    _TESSELLATION_PHONG
+    _MATERIAL_FEATURE_TRANSMISSION _NORMALMAP_TANGENT_SPACE _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+    _SUBSURFACE_MASK_MAP _TESSELLATION_PHONG
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -306,7 +306,7 @@ Material:
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 0.46701136
     - _SmoothnessRemapMin: 0.038247563
-    - _SmoothnessTextureChannel: 0
+    - _SmoothnessTextureChannel: 1
     - _SpecularAAScreenSpaceVariance: 0.1
     - _SpecularAAThreshold: 0.2
     - _SpecularHighlights: 1
@@ -370,7 +370,7 @@ Material:
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _SPECULAR_COLOR: {r: 1, g: 1, b: 1, a: 0}
-    - _SpecColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+    - _SpecColor: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
